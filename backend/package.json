@@ -1,0 +1,33 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "Ephemeral chat application backend",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.5",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.2"
+  }
+}

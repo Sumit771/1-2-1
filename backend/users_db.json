@@ -1,0 +1,30 @@
+[
+  {
+    "id": "user_1",
+    "username": "alice",
+    "email": "alice@example.com",
+    "passwordHash": "$2b$10$jEnCQ4pfZ3MGyHDMFzT0Gu8Gqse./HSUGPKw1sXfoO9pCIZXnfBAm",
+    "createdAt": "2026-02-18T11:09:19.398Z"
+  },
+  {
+    "id": "user_2",
+    "username": "bob",
+    "email": "bob@example.com",
+    "passwordHash": "$2b$10$teVamgT2tvR2gfA20LYkCepkFa6d2Q9cWTTAsjIRzOx/4DNHvMcGO",
+    "createdAt": "2026-02-18T11:09:19.399Z"
+  },
+  {
+    "id": "32b2d0d198537e7fcfae34f4",
+    "username": "1234",
+    "email": "1234@a.com",
+    "passwordHash": "$2b$10$uyh6jO6Z7WXnjJ7hNr4Cl.zMEdA4dhEpsCCOZyqv/CsGacuekFuaC",
+    "createdAt": "2026-02-19T09:32:00.376Z"
+  },
+  {
+    "id": "8a69c23c864ec50ea41e7dec",
+    "username": "9870",
+    "email": "9870@e.com",
+    "passwordHash": "$2b$10$W2Dow4ercvYLIJrq.nBR2OVE/YHF7MAKn2IxnUmZ.f9m67hMXUihe",
+    "createdAt": "2026-02-20T02:58:12.077Z"
+  }
+]

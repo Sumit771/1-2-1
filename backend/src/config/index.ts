@@ -25,7 +25,7 @@ export const config = {
     maxRequests: 5, // 5 messages per second per user
   },
   cors: {
-    origin: process.env.CORS_ORIGIN || "http://localhost:5173",
+    origin: process.env.CORS_ORIGIN || "https://one-to-1.onrender.com",
   },
   admin: {
     token: process.env.ADMIN_TOKEN || "admin-secret",
